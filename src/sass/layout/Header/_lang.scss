@@ -1,0 +1,10 @@
+// Випадаюче меню для зміни мови
+.lang {
+  border: none;
+  @include font(14px, 700, 1.29);
+
+  font-family: var(--secondary-font);
+
+  letter-spacing: 0.01em;
+  color: var(--secondary-text-color);
+}

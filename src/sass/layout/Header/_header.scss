@@ -1,0 +1,48 @@
+// Стилі хедера
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  padding: 29px 0;
+
+  @include for-tablet {
+    justify-content: space-between;
+    padding: 20px 0;
+  }
+
+  @include for-desktop {
+    padding-top: 40px;
+  }
+}
+
+.header-container {
+  @include for-desktop {
+    padding-right: 80px;
+    padding-left: 80px;
+  }
+}
+
+.logo {
+  margin-right: 23px;
+}
+
+.burger-btn {
+  margin-right: 46px;
+
+  transition: fill 250ms linear;
+  &:hover,
+  &:focus {
+    fill: #008cef;
+  }
+
+  @include for-tablet {
+    margin-right: 0;
+    flex-grow: 1;
+  }
+
+  @include for-desktop {
+    display: none;
+  }
+}
