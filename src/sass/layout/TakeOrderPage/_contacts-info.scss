@@ -48,8 +48,9 @@
     z-index: -1;
     text-align: end;
     left: 69%;
-    top: 636px;
+    // top: 636px;
     flex-direction: column;
+    padding-top: 20px;
     margin-bottom: 0px;
   }
   .contacts-data__title {
@@ -73,6 +74,11 @@
   (min-resolution: 2dppx) and (min-width: 1444px) {
     .hero-section {
     background-image: url(../images/Take-order-page/order-image5@2x.png);
+  }
+}
+@media screen and (min-width: 1540px){
+  .contacts-data__list{
+    left: 68%;
   }
 }
 @media screen and (min-width: 1700px){
