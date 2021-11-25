@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>3Д Моделювання</title>
+  <link rel="shortcut icon" href="/favicon.e84a8c00.ico" type="image/x-icon">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link rel="stylesheet" href="/fonts.23fdd8d1.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css" integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q==" crossorigin="anonymous" referrerpolicy="no-referrer">
+  <link rel="stylesheet" href="/main.9f5f90fe.css">
+<link rel="stylesheet" href="/printing.7768f2ff.css"></head>
+
+<body>
+  <!-- Header -->
+  <!-- HEADER -->
+<header class="container header-container">
+  <div class="header">
+    <!-- Логотип кoмпанії -->
+    <a href="/index.html" class="logo link">
+
+      <picture>
+        <source media="(min-width: 1444px)" srcset="/logo-desktop.a29f7580.png    1x,/logo-desktop@2x.26e49783.png 2x">
+        <source media="(min-width: 768px)" srcset="/logo-tablet.116559c9.png    1x,/logo-tablet@2x.0ee82e4a.png 2x">
+
+        <source media="(max-width: 767px)" srcset="/logo-mobile.d5ae10d6.png    1x,/logo-mobile@2x.869df284.png 2x">
+        <img class="logo__img" src="#" alt="Логотип">
+      </picture>
+
+    </a>
+
+
+    <!-- Навігація по сайту -->
+    <nav class="navigation">
+      <ul class="nav-list">
+        <li class="nav-list__item"><a href="/index.html" class="nav-list__link link">ГОЛОВНА</a></li>
+        <li class="nav-list__item dropdown-item dropdown">
+          <button type="button" class="btn-svg nav-list__link dropdown">ПОСЛУГИ</button>
+          <div class="dropdown-content">
+            <ul class="dropdown-content__list">
+              <li class="dropdown-content__item"><a href="/modeling.html" class="dropdown-content__link link">3D
+                  Моделювання</a></li>
+              <li class="dropdown-content__item"><a href="/scanning.html" class="dropdown-content__link link">3D
+                  Сканування</a></li>
+              <li class="dropdown-content__item"><a href="/printing.html" class="dropdown-content__link link">3D
+                  Друк</a></li>
+            </ul>
+          </div>
+
+          <svg class="navigation__icon" width="10" height="4">
+            <use href="/svg_sprite-defs.d890595a.svg#arrow_icon"></use>
+          </svg>
+        </li>
+        <li class="nav-list__item"><a href="/takeorder.html" class="nav-list__link link">ЗАМОВИТИ</a></li>
+        <li class="nav-list__item"><a href="/contacts.html" class="nav-list__link link">КОНТАКТИ</a></li>
+      </ul>
+    </nav>
+
+    <!-- Кнопка відкриття мобільного меню -->
+
+    <button type="button" class="burger-btn burger-btn--open btn-svg" data-menu-open="">
+      <svg class="burger-btn__icon" width="32" height="32">
+        <use href="/svg_sprite-defs.d890595a.svg#burger_menu_icon"></use>
+      </svg>
+    </button>
+
+
+    <!-- Кнопка виклику контактів -->
+
+    <div class="dropup">
+      <button type="button" class="tel-btn btn-svg">
+        <svg class="btn-tel__icon" width="24" height="24">
+          <use href="/svg_sprite-defs.d890595a.svg#round_call_icon"></use>
+        </svg>
+      </button>
+      <div class="dropup-content">
+        <a href="tel:+380936432288" class="dropup-content__link link">
+          <svg class="tel__icon" width="14" height="14">
+            <use href="/svg_sprite-defs.d890595a.svg#round_call_icon"></use>
+          </svg>
+          +38 (093) 643 22 88
+        </a>
+        <a href="tel:+380503454423" class="dropup-content__link link">
+          <svg class="tel__icon" width="14" height="14">
+            <use href="/svg_sprite-defs.d890595a.svg#round_call_icon"></use>
+          </svg>
+          +38 (050) 345 44 23
+        </a>
+      </div>
+    </div>
+
+    <!-- Випадаюче меню для зміни мови -->
+    <select name="lang" class="lang">
+      <option value="ENG">ENG</option>
+      <option value="UKR">UKR</option>
+      <option value="RUS">RUS</option>
+    </select>
+
+  </div>
+
+  <!-- Мобільне меню -->
+  <!-- Мобільне меню -->
+<div class="mobile-menu bg" data-menu="">
+  <div class="container-mobile container">
+
+    <div class="header-mobile">
+      <a href="/index.html" class="logo link">
+
+        <picture>
+
+          <source media="(min-width: 768px)" srcset="/logo-tablet.116559c9.png    1x,/logo-tablet@2x.0ee82e4a.png 2x">
+
+          <source media="(max-width: 767px)" srcset="/logo-mobile.d5ae10d6.png    1x,/logo-mobile@2x.869df284.png 2x">
+          <img class="logo__img" src="#" alt="Логотип">
+
+        </picture>
+      </a>
+
+      <button type="button" class="burger-btn burger-btn--close btn-svg" data-menu-close="">
+        <svg class="burger-btn__icon" width="45" height="45">
+          <use href="/svg_sprite-defs.d890595a.svg#close_icon"></use>
+        </svg>
+      </button>
+
+      <div class="dropup">
+        <button type="button" class="tel-btn btn-svg">
+          <svg class="btn-tel__icon" width="24" height="24">
+            <use href="/svg_sprite-defs.d890595a.svg#round_call_icon"></use>
+          </svg>
+        </button>
+        <div class="dropup-content">
+          <a href="tel:+380936432288" class="dropup-content__link link">
+            <svg class="tel__icon" width="14" height="14">
+              <use href="/svg_sprite-defs.d890595a.svg#round_call_icon"></use>
+            </svg>
+            +38 (093) 643 22 88
+          </a>
+          <a href="tel:+380503454423" class="dropup-content__link link">
+            <svg class="tel__icon" width="14" height="14">
+              <use href="/svg_sprite-defs.d890595a.svg#round_call_icon"></use>
+            </svg>
+            +38 (050) 345 44 23
+          </a>
+        </div>
+      </div>
+
+      <select name="lang" id="" class="lang">
+        <option value="ENG">ENG</option>
+        <option value="UKR">UKR</option>
+        <option value="RUS">RUS</option>
+      </select>
+    </div>
+
+    <ul class="mobile-nav">
+      <li class="mobile-nav__item"><a href="/index.html" class="mobile-nav__link link current">ГОЛОВНА</a></li>
+      <li class="mobile-nav__item mobile-nav__link">ПОСЛУГИ
+        <ul class="mobile-nav__sub">
+          <li class="mobile-nav__item"><a href="/modeling.html" class="mobile-nav__link mobile-nav__link--sub link">3D
+              Моделювання</a></li>
+          <li class="mobile-nav__item"><a href="/scanning.html" class="mobile-nav__link mobile-nav__link--sub link">3D
+              Сканування</a></li>
+          <li class="mobile-nav__item"><a href="/printing.html" class="mobile-nav__link mobile-nav__link--sub link">3D
+              Друк</a></li>
+        </ul>
+      </li>
+      <li class="mobile-nav__item"><a href="/takeorder.html" class="mobile-nav__link link">ЗАМОВИТИ</a></li>
+      <li class="mobile-nav__item"><a href="/contacts.html" class="mobile-nav__link link">КОНТАКТИ</a></li>
+    </ul>
+  </div>
+</div>
+
+
+</header>
+  <main>
+
+
+    <section class="we-create">
+  <div class="container">
+    <h1 class="title we-create__title">МИ СТВОРЮЄМО</h1>
+    <ul class="we-create__list">
+      <li class="we-create__item">
+        <picture>
+          <source media="(min-width: 1444px)" srcset="/about-3d-creation-lab-desktop.056d135e.webp 1x,/about-3d-creation-lab-desktop@2x.202aea45.webp 2x" type="image/webp">
+          <source media="(min-width: 1444px)" srcset="/about-3d-creation-lab-desktop.5eda807e.jpg 1x,/about-3d-creation-lab-desktop@2x.b5365ebb.jpg 2x">
+          <source media="(min-width: 768px)" srcset="/about-3d-creation-lab-tablet.66b4da94.webp 1x,/about-3d-creation-lab-tablet@2x.ba3f8037.webp 2x" type="image/webp">
+          <source media="(min-width: 768px)" srcset="/about-3d-creation-lab-tablet.fbb66f05.jpg 1x,/about-3d-creation-lab-tablet@2x.484e2f69.jpg 2x">
+          <source media="(max-width: 767px)" srcset="/about-3d-creation-lab-mobile.f08e1bfa.webp 1x,/about-3d-creation-lab-mobile@2x.e614f6a3.webp 2x" type="image/webp">
+          <source media="(max-width: 767px)" srcset="/about-3d-creation-lab-mobile.e914a63d.jpg 1x,/about-3d-creation-lab-mobile@2x.7990e096.jpg 2x">
+          <img class="we-create__img" src="#" alt="Фото деталі">
+        </picture>
+        <p class="we-create_text">ПРОТОТИПИ</p>
+      </li>
+      <li class="we-create__item">
+        <picture>
+          <source media="(min-width: 1444px)" srcset="/toulouse-Archi-Blog-desktop.0ee09149.webp 1x,/toulouse-Archi-Blog-desktop@2x.305a8002.webp 2x" type="image/webp">
+          <source media="(min-width: 1444px)" srcset="/toulouse-Archi-Blog-desktop.59f02794.jpg 1x,/toulouse-Archi-Blog-desktop@2x.c7b81930.jpg 2x">
+          <source media="(min-width: 768px)" srcset="/toulouse-Archi-Blog-tablet.e7c86b26.webp 1x,/toulouse-Archi-Blog-tablet@2x.e9e4f50b.webp 2x" type="image/webp">
+          <source media="(min-width: 768px)" srcset="/toulouse-Archi-Blog-tablet.97ba173a.jpg 1x,/toulouse-Archi-Blog-tablet@2x.f93b442d.jpg 2x">
+          <source media="(max-width: 767px)" srcset="/toulouse-Archi-Blog-mobile.3363cd10.webp 1x,/toulouse-Archi-Blog-mobile@2x.655e56c8.webp 2x" type="image/webp">
+          <source media="(max-width: 767px)" srcset="/toulouse-Archi-Blog-mobile.db632dc0.jpg 1x,/toulouse-Archi-Blog-mobile@2x.eaae1b03.jpg 2x">
+          <img class="we-create__img" src="#" alt="Фото деталі">
+        </picture>
+        <p class="we-create_text">МАКЕТИ</p>
+      </li>
+      <li class="we-create__item">
+        <picture>
+          <source media="(min-width: 1444px)" srcset="/decor-desktop.646760e2.webp 1x,/decor-desktop@2x.fff4d929.webp 2x" type="image/webp">
+          <source media="(min-width: 1444px)" srcset="/decor-desktop.cbdc964c.jpg 1x,/decor-desktop@2x.10d98013.jpg 2x">
+          <source media="(min-width: 768px)" srcset="/decor-tablet.c3b0070d.webp 1x,/decor-tablet@2x.3686e6ec.webp 2x" type="image/webp">
+          <source media="(min-width: 768px)" srcset="/decor-tablet.1a80f536.jpg 1x,/decor-tablet@2x.f05ec9b5.jpg 2x">
+          <source media="(max-width: 767px)" srcset="/decor-mobile.a13f24bb.webp 1x,/decor-mobile@2x.da53a854.webp 2x" type="image/webp">
+          <source media="(max-width: 767px)" srcset="/decor-mobile.3afbae1e.jpg 1x,/decor-mobile@2x.1019c944.jpg 2x">
+          <img class="we-create__img" src="#" alt="Фото деталі">
+        </picture>
+        <p class="we-create_text">ДЕКОР</p>
+      </li>
+      <li class="we-create__item we-create__item--pos">
+        <picture>
+          <source media="(min-width: 1444px)" srcset="/3D-coub-desktop.2c3ad49f.webp 1x,/3D-coub-desktop@2x.bf1b91cb.webp            2x" type="image/webp">
+          <source media="(min-width: 1444px)" srcset="/3D-coub-desktop.8df31bfd.jpg 1x,/3D-coub-desktop@2x.f54c76ae.jpg 2x">
+          <source media="(min-width: 768px)" srcset="/3D-coub-tablet.e3f562b0.webp 1x,/3D-coub-tablet@2x.6d4d5849.webp            2x" type="image/webp">
+          <source media="(min-width: 768px)" srcset="/3D-coub-tablet.9410419d.jpg 1x,/3D-coub-tablet@2x.5b723ca3.jpg 2x">
+          <source media="(max-width: 767px)" srcset="/3D-coub-mobile.275e88f3.webp 1x,/3D-coub-mobile@2x.c2573f57.webp            2x" type="image/webp">
+          <source media="(max-width: 767px)" srcset="/3D-coub-mobile.6e61765e.jpg 1x,/3D-coub-mobile@2x.dc203100.jpg 2x">
+          <img class="we-create__img" src="#" alt="Фото деталі">
+        </picture>
+        <p class="we-create_text we-create_text--pos">КОРПОРАТИВНИЙ
+          ДИЗАЙН</p>
+      </li>
+    </ul>
+  </div>
+</section>
+    <!-- Секцію зробив Тарас Роботецький -->
+
+<section class="process-description">
+  <div class="container">
+    <h2 class="title process-description__title visually-hidden">Опис процесу</h2>
+    <ul class="process-description__list">
+      <li class="process-description__item">
+        <div class="process-description__container-image">
+          <picture>
+            <source media="(min-width: 1444px)" srcset="/process-img1-desktop.7aa91032.png 1x,/process-img1-desktop2x.fe6a632d.png 2x">
+            <source media="(min-width: 768px)" srcset="/process-img1-tablet.cdf40d88.png 1x,/process-img1-tablet2x.8e6b946e.png 2x">
+            <source media="(max-width: 767px)" srcset="/process-img1-mobile.7e26b67d.png 1x,/process-img1-mobile2x.75c58911.png 2x">
+            <img class="process-description__img" src="#" alt="3Д-Принтер">
+          </picture>
+        </div>
+
+        <div class="process-description__container-text">
+          <p class="process-description_text"><span class="process-description_text--accent">3D-ДРУК</span> - ми
+            використовуємо FDM технологію друку. Вона представляє собою пошарове формування об'єкта за допомогою 3D
+            принтера.</p>
+          <p class="process-description_text">Моделі для створення розроблюються дизайнерами в спеціальному програмному
+            забезпеченні: системах автоматизованого
+            проектування.</p>
+          <p class="process-description_text process-description_text--distance">3D друк знайшов широке застосування в
+            архітектурі, промисловості, маркетингу, мистецтві і багатьох інших сфер.</p>
+          <div class="process-description_container">
+            <a href="/takeorder.html" class="process-description_link link">ЗРОБИТИ ЗАМОВЛЕННЯ</a>
+          </div>
+
+        </div>
+      </li>
+      <li class="process-description__item">
+        <div class="process-description__container-image">
+          <picture>
+            <source media="(min-width: 1444px)" srcset="/process-img2-desktop.242b41f6.png 1x,/process-img2-desktop2x.c090904c.png 2x">
+            <source media="(min-width: 768px)" srcset="/process-img2-tablet.342fbb0d.png 1x,/process-img2-tablet2x.2cdc2d5b.png 2x">
+            <source media="(max-width: 767px)" srcset="/process-img2-mobile.87b988f9.png 1x,/process-img2-mobile2x.c198683d.png 2x">
+            <img class="process-description__img" src="#" alt="3Д-Програма">
+          </picture>
+        </div>
+        <div>
+          <p class="process-description_text"><span class="process-description_text--accent">3D-МОДЕЛЮВАННЯ</span> - це
+            процес розробки математичного уявлення будь-якої поверхні об'єкта в трьох вимірах за допомогою
+            спеціалізованого
+            програмного забезпечення.</p>
+          <p class="process-description_text">Наші дизайнери зпроектують будь-який виріб виходячи з ваших побажань.</p>
+          <p class="process-description_text process-description_text--distance">Розуміючи специфіку 3D друку і ваших
+            задач ми створимо деталь яка повністю задовольнить ваші потреби.</p>
+          <div class="process-description_container">
+            <a href="/takeorder.html" class="process-description_link link">ЗРОБИТИ ЗАМОВЛЕННЯ</a>
+          </div>
+
+        </div>
+      </li>
+      <li class="process-description__item">
+        <div class="process-description__container-image">
+          <picture>
+            <source media="(min-width: 1444px)" srcset="/process-img3-desktop.6e03a18e.png 1x,/process-img3-desktop2x.484730d5.png 2x">
+            <source media="(min-width: 768px)" srcset="/process-img3-tablet.d445f750.png 1x,/process-img3-tablet2x.70e264c1.png 2x">
+            <source media="(max-width: 767px)" srcset="/process-img3-mobile.2706194e.png 1x,/process-img3-mobile2x.f2d968de.png 2x">
+            <img class="process-description__img" src="#" alt="Вертикальний 3Д-Принтер">
+          </picture>
+        </div>
+
+        <div>
+          <p class="process-description_text"><span class="process-description_text--accent">3D-СКАНУВАННЯ</span> -
+            зняття даних, шляхом аналізу форми предмета і на основі отриманих даних створення її 3D-моделі.</p>
+          <p class="process-description_text process-description_text--distance">Це універсальний інструмент, який
+            дозволяє отримати як і просто 3D-модель для візуалізації в цифровому вигляді, так і
+            3D-модель для подальшого її друку на 3D-принтері.</p>
+
+          <div class="process-description_container">
+            <a href="/takeorder.html" class="process-description_link link">ЗРОБИТИ ЗАМОВЛЕННЯ</a>
+          </div>
+
+        </div>
+      </li>
+
+
+    </ul>
+  </div>
+
+</section>
+    <!-- <include src="./partials/PrintingPage/.html"></include> -->
+
+
+
+  </main>
+  <!-- Footer -->
+  <!-- footer -->
+<footer class="footer">
+  <div class="container footer-container">
+    <div class="margin-footer footer-padding-logo">
+      <a class="logo" href="/index.html" lang="en">
+
+        <picture>
+          <source media="(min-width: 1444px)" srcset="/logo-desktop.a29f7580.png    1x,/logo-desktop@2x.26e49783.png 2x">
+          <source media="(min-width: 768px)" srcset="/logo-tablet.116559c9.png    1x,/logo-tablet@2x.0ee82e4a.png 2x">
+
+          <source media="(max-width: 767px)" srcset="/logo-mobile.d5ae10d6.png    1x,/logo-mobile@2x.869df284.png 2x">
+
+          <img class="about-list-img" src="#" alt="logo">
+        </picture>
+
+      </a>
+    </div>
+    <div class="mobile-footer block-footer">
+      <div>
+        <ul class="footer-menu">
+          <li class="footer-menu-item">
+            <a class="menu__studio" href="./">Головна</a>
+          </li>
+          <li class="footer-menu-item">
+            <a class="menu__studio" href="/modeling.html">3D Моделювання</a>
+          </li>
+          <li class="footer-menu-item">
+            <a class="menu__studio" href="/scanning.html">3D Сканування</a>
+          </li>
+          <li class="footer-menu-item">
+            <a class="menu__studio" href="/printing.html">3D Друк</a>
+          </li>
+          <li class="footer-menu-item">
+            <a class="menu__studio" href="/takeorder.html">Замовити</a>
+          </li>
+          <li class="footer-menu-item">
+            <a class="menu__studio" href="/contacts.html">Контакти</a>
+          </li>
+        </ul>
+      </div>
+      <div class="footer-list-link">
+        <ul class="footer-list">
+          <li class="footer-menu-item">
+            <a class="menu__studio" href="#">Instagram</a>
+          </li>
+          <li class="footer-menu-item">
+            <a class="menu__studio" href="#">YouTube</a>
+          </li>
+          <li class="footer-menu-item">
+            <a class="menu__studio" href="#">Facebook</a>
+          </li>
+        </ul>
+      </div>
+      <div class="footer-lists-contacts">
+        <ul class="footer-contacts__list">
+          <li class="footer-contacts__link">
+            <p class="footer-contacts__link-name">Email</p>
+            <a class="menu-contacts mail__link" href="mailto:3dfreedom.info@gmail.com">
+              3dfreedom.info@gmail.com</a>
+          </li>
+          <li class="footer-contacts__link">
+            <p class="footer-contacts__link-name">Телефони</p>
+            <div>
+              <a class="menu-contacts tel__link" href="tel:+380936432288">
+                +38 (093) 643 22 88</a>
+            </div>
+            <div>
+              <a class="menu-contacts tel__link" href="tel:+380503454423">
+                +38 (050) 345 44 23</a>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</footer>
+    <script src="/printing.7768f2ff.js"></script>
+    <script src="/menu.1e4d42ae.js"></script>
+
+</body>
+
+
+</html>

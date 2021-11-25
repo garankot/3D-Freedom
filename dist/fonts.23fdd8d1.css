@@ -1,0 +1,53 @@
+@font-face {
+  font-family: 'Caviar Dreams';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url('caviardreamsbold.f0b97b76.woff') format('woff'),
+    url('caviardreamsbold.aa507823.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Caviar Dreams';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('caviardreams.3a5148f3.woff') format('woff'),
+    url('caviardreams.7edef252.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Cera Pro';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url('CeraPro-Bold.65bcfa32.woff') format('woff'),
+    url('CeraPro-Bold.7f3a84ab.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Cera Pro';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url('CeraPro-Medium.05585371.woff') format('woff'),
+    url('CeraPro-Medium.51db0c34.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Cera Pro';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('CeraPro-Regular.49d2dcba.woff') format('woff'),
+    url('CeraPro-Regular.8a5cacab.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Cera Pro';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url('CeraPro-Light.b730be03.woff') format('woff'),
+    url('CeraPro-Light.d457b5ba.woff2') format('woff2');
+}
