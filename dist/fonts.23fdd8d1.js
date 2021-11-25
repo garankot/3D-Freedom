@@ -169,7 +169,7 @@ module.exports = reloadCSS;
 var reloadCSS = require('_css_loader');
 module.hot.dispose(reloadCSS);
 module.hot.accept(reloadCSS);
-},{"./..\\fonts\\caviardreamsbold.woff":1772,"./..\\fonts\\caviardreamsbold.woff2":1773,"./..\\fonts\\caviardreams.woff":1774,"./..\\fonts\\caviardreams.woff2":1775,"./..\\fonts\\CeraPro-Bold.woff":1776,"./..\\fonts\\CeraPro-Bold.woff2":1777,"./..\\fonts\\CeraPro-Medium.woff":1778,"./..\\fonts\\CeraPro-Medium.woff2":1779,"./..\\fonts\\CeraPro-Regular.woff":1780,"./..\\fonts\\CeraPro-Regular.woff2":1781,"./..\\fonts\\CeraPro-Light.woff":1782,"./..\\fonts\\CeraPro-Light.woff2":1783,"_css_loader":1784}],1788:[function(require,module,exports) {
+},{"./..\\fonts\\caviardreamsbold.woff":1772,"./..\\fonts\\caviardreamsbold.woff2":1773,"./..\\fonts\\caviardreams.woff":1774,"./..\\fonts\\caviardreams.woff2":1775,"./..\\fonts\\CeraPro-Bold.woff":1776,"./..\\fonts\\CeraPro-Bold.woff2":1777,"./..\\fonts\\CeraPro-Medium.woff":1778,"./..\\fonts\\CeraPro-Medium.woff2":1779,"./..\\fonts\\CeraPro-Regular.woff":1780,"./..\\fonts\\CeraPro-Regular.woff2":1781,"./..\\fonts\\CeraPro-Light.woff":1782,"./..\\fonts\\CeraPro-Light.woff2":1783,"_css_loader":1784}],339:[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
 
@@ -198,7 +198,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = '' || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + '58144' + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + '64502' + '/');
   ws.onmessage = function (event) {
     var data = JSON.parse(event.data);
 
@@ -418,4 +418,4 @@ LazyPromise.prototype.catch = function (onError) {
 };
 },{"./bundle-url":1785}],0:[function(require,module,exports) {
 var b=require(1789);b.load([["caviardreamsbold.f0b97b76.woff",1772],["caviardreamsbold.aa507823.woff2",1773],["caviardreams.3a5148f3.woff",1774],["caviardreams.7edef252.woff2",1775],["CeraPro-Bold.65bcfa32.woff",1776],["CeraPro-Bold.7f3a84ab.woff2",1777],["CeraPro-Medium.05585371.woff",1778],["CeraPro-Medium.51db0c34.woff2",1779],["CeraPro-Regular.49d2dcba.woff",1780],["CeraPro-Regular.8a5cacab.woff2",1781],["CeraPro-Light.b730be03.woff",1782],["CeraPro-Light.d457b5ba.woff2",1783]]);
-},{}]},{},[1788,0], null)
+},{}]},{},[339,0], null)

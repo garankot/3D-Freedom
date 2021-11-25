@@ -114,7 +114,7 @@ fileUploader.addEventListener('change', event => {
   const msg = `File ${files[0].name} uploaded successfully!`;
   feedback.innerHTML = msg;
 });
-},{}],1788:[function(require,module,exports) {
+},{}],339:[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
 
@@ -143,7 +143,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = '' || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + '58144' + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + '64502' + '/');
   ws.onmessage = function (event) {
     var data = JSON.parse(event.data);
 
@@ -284,5 +284,5 @@ function hmrAccept(bundle, id) {
     return hmrAccept(global.parcelRequire, id);
   });
 }
-},{}]},{},[1788,832], null)
+},{}]},{},[339,832], null)
 //# sourceMappingURL=/add-file.13a4613c.map
